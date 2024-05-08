@@ -1,0 +1,42 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+/* Define the "system" font family */
+@font-face {
+  font-family: system-ui;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Aldrich', sans-serif, 'Roboto Serif', serif, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+:root {
+    line-height: calc(1ex / .32);
+  }
+  
+  h1, h2, h3, h4, h5, figure, p, ol, ul {
+    margin: 0;
+  }
+  
+  ol, ul {
+    list-style: none;
+    padding-inline: 0;
+  }
+  
+  h1, h2, h3, h4, h5 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-inline-size: 100%;
+  }
+
+  p {
+    width: 60ch;
+    max-width: 100%;
+}
