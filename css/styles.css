@@ -7,10 +7,20 @@
   font-weight: 300;
   src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
 }
+:root {
+    --brand-background : #ffffff;
+    --brand-main: #777887;
+    --brand-sec: #94949e;
+    --brand-tri: #b1b1b6;
+    --brand-off: #cecece;
+    --brand-font: 'Audiowide';
+    --text-font: 'Roboto Serif';
+}
+
 
 body {
   -webkit-font-smoothing: antialiased;
-  font-family: 'Aldrich', sans-serif, 'Roboto Serif', serif, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Audiowide', 'Roboto Serif', 'Aldrich', sans-serif, serif, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 :root {
