@@ -1,4 +1,4 @@
-@import 'node_modules/modern-normalize/modern-normalize.css';
+
 
 /* Define the "system" font family */
 @font-face {
@@ -57,21 +57,15 @@ body {
     max-inline-size: 100%;
   }
 
-  p {
-    width: 60ch;
-    max-width: 100%;
-}
 
 div {
   display: flex;
 }
 
-.main-page {
-  
-}
 
 .content {
   flex-direction: column;
+  flex-grow: 1;
 
 }
 
@@ -80,9 +74,30 @@ div {
 }
 
 .sidebar {
-  background-image: url(/signup-page/img/side.jpg);
-  min-width: 33vw;
-  border: 3px black solid;
+  width: 350px;
+  height: 100vh;
+  background-image: url('/signup-page/side.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: center;
+  
+  
+}
+
+.banner { 
+  color: var(--brand-background);
+  align-items: center;
+}
+
+#logo-text {
+  font-size: clamp(1rem,8vh,3rem);
+}
+
+#logo {
+  height: 33%;
 }
 
 .action {
