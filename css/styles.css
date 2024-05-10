@@ -17,10 +17,21 @@
     --text-font: 'Roboto Serif';
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, .main-page {
+  height: 100%;
+}
+
 
 body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Audiowide', 'Roboto Serif', 'Aldrich', sans-serif, serif, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  
 }
 
 :root {
@@ -49,4 +60,31 @@ body {
   p {
     width: 60ch;
     max-width: 100%;
+}
+
+div {
+  display: flex;
+}
+
+.main-page {
+  
+}
+
+.content {
+  flex-direction: column;
+
+}
+
+.content > * {
+  flex-basis: 33vh;
+}
+
+.sidebar {
+  background-image: url(/signup-page/img/side.jpg);
+  min-width: 33vw;
+  border: 3px black solid;
+}
+
+.action {
+  flex-direction: column;
 }
