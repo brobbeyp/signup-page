@@ -112,7 +112,7 @@ div {
 
 p.feature {
   max-width: 60ch;
-  margin: 1vh;
-  padding: 10px;
+  margin: 0;
+  padding: 6px 10px;
   
 }
