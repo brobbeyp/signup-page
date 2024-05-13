@@ -12,7 +12,7 @@
     --brand-main: #777887;
     --brand-sec: #94949e;
     --brand-tri: #b1b1b6;
-    --brand-off: #cecece;
+    --brand-off: #ebeaeaec;
     --brand-font: 'Audiowide';
     --text-font: 'Roboto Serif';
 }
@@ -67,6 +67,7 @@ div {
 .content {
   flex-direction: column;
   flex-grow: 1;
+  font-family: 'Aldrich';
 
 }
 
@@ -93,6 +94,10 @@ div {
   align-items: center;
 }
 
+.text, .action {
+  background-color: var(--brand-off);
+}
+
 #logo-text {
   font-size: clamp(1rem,8vh,3rem);
 }
@@ -101,6 +106,13 @@ div {
   height: 25%;
 }
 
-.action {
+.action, .text, .form {
   flex-direction: column;
+}
+
+p.feature {
+  max-width: 60ch;
+  margin: 1vh;
+  padding: 10px;
+  
 }
