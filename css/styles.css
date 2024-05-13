@@ -127,8 +127,14 @@ p.feature {
 
 #signup {
   margin-top: .5rem;
+  display: flex;
+  flex-direction: row;
 }
 
 #signup > * {
   margin-top: .5rem;
+}
+
+#col-1, #col-2 {
+  flex-direction: column;
 }
