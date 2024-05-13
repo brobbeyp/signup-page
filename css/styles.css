@@ -116,7 +116,8 @@ p.feature {
   
 }
 .form {
-  padding: 6px 1rem;
+  padding: 6px .5rem;
+  
 }
 
 
@@ -126,15 +127,26 @@ p.feature {
 }
 
 #signup {
-  margin-top: .5rem;
+  margin: .5rem 0;
   display: flex;
   flex-direction: row;
+  gap: 50px;
 }
 
 #signup > * {
   margin-top: .5rem;
+  
 }
 
 #col-1, #col-2 {
   flex-direction: column;
+}
+
+.form-input {
+  min-width: 300px;
+  margin: .5rem 0;
+  display: flex;
+  flex-direction: column;
+  font-size: .75rem;
+  
 }
