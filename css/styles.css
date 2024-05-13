@@ -28,7 +28,8 @@ html, body, .main-page {
 }
 
 
-body {
+body .main-page {
+  
   -webkit-font-smoothing: antialiased;
   font-family: 'Audiowide', 'Roboto Serif', 'Aldrich', sans-serif, serif, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   
@@ -97,7 +98,7 @@ div {
 }
 
 #logo {
-  height: 33%;
+  height: 25%;
 }
 
 .action {
