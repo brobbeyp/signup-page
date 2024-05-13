@@ -112,7 +112,23 @@ div {
 
 p.feature {
   max-width: 60ch;
-  margin: 0;
   padding: 6px 10px;
   
+}
+.form {
+  padding: 6px 1rem;
+}
+
+
+#form-text {
+  font-size: 1.25rem;
+  margin-top: .5rem;
+}
+
+#signup {
+  margin-top: .5rem;
+}
+
+#signup > * {
+  margin-top: .5rem;
 }
