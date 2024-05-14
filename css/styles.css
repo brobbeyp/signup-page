@@ -63,6 +63,11 @@ div {
   display: flex;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(28, 28, 107);
+}
+
 
 .content {
   flex-direction: column;
@@ -98,6 +103,11 @@ div {
   background-color: var(--brand-off);
 }
 
+.text {
+  padding: 5vh 0;
+  box-shadow: var(--brand-tri) 0px 2px;
+}
+
 #logo-text {
   font-size: clamp(1rem,8vh,3rem);
 }
@@ -111,12 +121,13 @@ div {
 }
 
 p.feature {
-  max-width: 60ch;
-  padding: 6px 10px;
+  max-width: 65ch;
+  padding: 1vh 2rem;
   
 }
 .form {
-  padding: 6px .5rem;
+  padding: 5vh 2rem;
+  box-shadow: var(--brand-tri) 0px 2px;
   
 }
 
@@ -148,5 +159,20 @@ p.feature {
   display: flex;
   flex-direction: column;
   font-size: .75rem;
+  
+}
+
+.action {
+  padding: 1vh 2rem;
+}
+
+#create {
+  width: 200px;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(28, 28, 107);
+  color: var(--brand-off);
+  font-family: 'Audiowide';
+  margin: 2rem 0px;
   
 }
